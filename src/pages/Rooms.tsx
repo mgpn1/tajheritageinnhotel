@@ -1,11 +1,9 @@
 import React from 'react';
-import TopBar from '../components/TopBar';
 import { IndianRupee, Lock, ThumbsUp, Menu } from 'lucide-react';
 
 function Rooms() {
   return (
     <div className="flex flex-col min-h-screen">
-      <TopBar />
       <main className="flex-1">
         {/* Hero Section */}
         <div className="relative h-[600px] bg-[url('https://images.pexels.com/photos/1579253/pexels-photo-1579253.jpeg')] bg-cover bg-center">

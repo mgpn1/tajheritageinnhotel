@@ -12,6 +12,7 @@ import { IndianRupee, Lock, ThumbsUp, Menu } from 'lucide-react';
 function App() {
   return (
     <Router>
+      <TopBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
